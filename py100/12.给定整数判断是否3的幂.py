@@ -1,0 +1,9 @@
+a=int(input("输入整数："))
+while(a):
+    a/=3
+    if(a!=int(a)):
+        print("不是")
+        break
+    if(a==1):
+        print("是")
+        break
