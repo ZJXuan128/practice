@@ -1,0 +1,14 @@
+n=int(input("请输入一个小于等于五位的正整数："))
+if(int(n/10000)!=0):
+    print("5位数")
+elif(int(n/1000)!=0):
+    print("4位数")
+elif(int(n/100)!=0):
+    print("3位数")
+elif(int(n/10)!=0):
+    print("2位数")
+else:
+    print("1位数")
+n_list=list(str(n))
+n_list.reverse()
+print(n_list)

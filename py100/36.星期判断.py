@@ -1,0 +1,24 @@
+str=input("输入星期英文字母：")
+while(1):
+    if(str=='M'):
+        print("星期一")
+        break
+    elif(str=='W'):
+        print("星期三")
+        break
+    elif(str=='T'):
+        str1=input("下一个字母")
+        if(str1=='u'):
+            print("星期二")
+            break
+        elif(str1=='h'):
+            print("星期四")
+            break
+    elif(str=='S'):
+        str1=input("下一个字母")
+        if(str1=='a'):
+            print("星期六")
+            break
+        elif(str1=='u'):
+            print("星期日")
+            break
