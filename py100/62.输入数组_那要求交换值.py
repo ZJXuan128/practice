@@ -1,0 +1,11 @@
+st=input("输入一组数据：")
+s_list=str.split(st)
+t_list=str.split(st)
+t_list.sort()
+mini=t_list[0]
+maxi=t_list[-1]
+n1=s_list.index(mini)
+n2=s_list.index(maxi)
+s_list[0],s_list[n2]=s_list[n2],s_list[0]
+s_list[-1],s_list[n1]=s_list[n1],s_list[-1]
+print(s_list)
